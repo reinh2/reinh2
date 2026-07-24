@@ -4,7 +4,7 @@
 
 Most "AI agent" projects let the model call a mutating API and hope the prompt holds. Mine treat it as an untrusted planner: it proposes, the server decides, the database enforces, and a person confirms anything that matters.
 
-**Available for freelance work** — backend services, AI agents, document/RAG pipelines, business automation. → [timofeyfrol@gmail.com](mailto:timofeyfrol@gmail.com)
+**Available for freelance work** — backend services, AI agents, document/RAG pipelines, business automation. → [reinhardgarcia2000@gmail.com](mailto:reinhardgarcia2000@gmail.com)
 
 ---
 
@@ -67,6 +67,6 @@ Have a backend, AI agent, or automation project? **[timofeyfrol@gmail.com](mailt
 - **[AI Lead Pipeline](https://github.com/reinh2/Lead-pipeline)** — первый ответ клиенту за ~30 секунд вместо 4 часов: квалификация заявки, запись в CRM, карточка менеджеру, мгновенный персональный ответ.
 - **[MindBite AI](https://github.com/reinh2/Mindbite-ai)** — дневник питания, который заполняется сам: фото, голос или текст. Telegram Mini App, 11 языков, подписки.
 
-Открыт для фриланс-проектов: бэкенд, AI-агенты, работа с документами и RAG, автоматизация бизнес-процессов. → **[timofeyfrol@gmail.com](mailto:timofeyfrol@gmail.com)**
+Открыт для фриланс-проектов: бэкенд, AI-агенты, работа с документами и RAG, автоматизация бизнес-процессов. → **[reinhardgarcia2000@gmail.com](mailto:reinhardgarcia2000@gmail.com)**
 
 </details>
