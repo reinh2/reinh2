@@ -1,6 +1,6 @@
 # Reinh
 
-**Go backend & AI automation engineer.** I build systems where the model does the useful part and never gets to be the authority — server code, PostgreSQL constraints, and a human hold that.
+**AI automation engineer.** I build systems where the model does the useful part and never gets to be the authority — server code, PostgreSQL constraints, and a human hold that.
 
 Most "AI agent" projects let the model call a mutating API and hope the prompt holds. Mine treat it as an untrusted planner: it proposes, the server decides, the database enforces, and a person confirms anything that matters.
 
