@@ -12,6 +12,25 @@ Most "AI agent" projects let the model call a mutating API and hope the prompt h
 
 Five complete, runnable systems — not snippets. Each one ships with Docker Compose, tests, architecture docs, and an honest statement of what it does *not* do.
 
+### ▶ Video overviews
+
+Short videos with sound: what each project does, in under 35 seconds. Russian versions behind the RU links.
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://reinh2.github.io/assets/maxi-plast/maxi-plast-motion-en.mp4"><img src="https://reinh2.github.io/assets/maxi-plast/maxi-plast-motion-poster-en.webp" alt="Maxi-Plast: video overview"></a><br><b>Maxi-Plast</b> · client website redesign on its existing CMS, live since October 2026 · <a href="https://maxi-plast.ru/">maxi-plast.ru</a><br><sub>▶ 33 s with sound · <a href="https://reinh2.github.io/assets/maxi-plast/maxi-plast-motion-en.mp4">EN</a> · <a href="https://reinh2.github.io/assets/maxi-plast/maxi-plast-motion-ru.mp4">RU</a></sub></td>
+<td width="50%" valign="top"><a href="https://reinh2.github.io/assets/motion/lead-en.mp4"><img src="https://reinh2.github.io/assets/motion/lead-en-poster.webp" alt="AI Lead Pipeline: video overview"></a><br><b>AI Lead Pipeline</b> · enquiry → qualification → CRM → reply<br><sub>▶ 32 s with sound · <a href="https://reinh2.github.io/assets/motion/lead-en.mp4">EN</a> · <a href="https://reinh2.github.io/assets/motion/lead-ru.mp4">RU</a></sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://reinh2.github.io/assets/motion/docmind-en.mp4"><img src="https://reinh2.github.io/assets/motion/docmind-en-poster.webp" alt="DocMind: video overview"></a><br><b>DocMind</b> · answers from documents, with sources<br><sub>▶ 28 s with sound · <a href="https://reinh2.github.io/assets/motion/docmind-en.mp4">EN</a> · <a href="https://reinh2.github.io/assets/motion/docmind-ru.mp4">RU</a></sub></td>
+<td width="50%" valign="top"><a href="https://reinh2.github.io/assets/motion/kontor-en.mp4"><img src="https://reinh2.github.io/assets/motion/kontor-en-poster.webp" alt="Kontor: video overview"></a><br><b>Kontor</b> · appointment booking in chat<br><sub>▶ 28 s with sound · <a href="https://reinh2.github.io/assets/motion/kontor-en.mp4">EN</a> · <a href="https://reinh2.github.io/assets/motion/kontor-ru.mp4">RU</a></sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://reinh2.github.io/assets/motion/invoice-en.mp4"><img src="https://reinh2.github.io/assets/motion/invoice-en-poster.webp" alt="InvoiceFlow: video overview"></a><br><b>InvoiceFlow</b> · invoice → reviewed data<br><sub>▶ 28 s with sound · <a href="https://reinh2.github.io/assets/motion/invoice-en.mp4">EN</a> · <a href="https://reinh2.github.io/assets/motion/invoice-ru.mp4">RU</a></sub></td>
+<td width="50%"></td>
+</tr>
+</table>
+
 ### 🗓 [Kontor](https://github.com/reinh2/Kontor) — AI front desk that books real appointments
 A customer writes *"haircut Thursday evening?"* and gets a real slot — checked against catalogue, staff, hours, breaks, buffers and time zones. The model proposes; the booking only happens after an explicit customer *yes*, and the server executes its own frozen arguments, never what the model re-sends. Double-booking is prevented by a database exclusion constraint under serializable transactions, not by an `if` statement.
 `Go` · `PostgreSQL` · `SSE` · `Docker` — **runs with no API key** (deterministic local model adapter)
@@ -58,6 +77,8 @@ Have a backend, AI agent, or automation project? **[reinhdeveloper@gmail.com](ma
 <br>
 
 **AI-автоматизации.** Строю системы, где модель делает полезную работу, но никогда не становится источником полномочий — за это отвечают серверный код, ограничения PostgreSQL и человек.
+
+Видеообзоры всех проектов и клиентского редизайна Maxi-Plast — в галерее выше, русские версии по ссылкам «RU».
 
 Пять законченных проектов, каждый запускается одной командой `docker compose up`:
 
